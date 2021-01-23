@@ -22,7 +22,12 @@
 	margin-top: 50px;
 	margin-left: 10px;
 }
+.contain-div::after {
+	content: '';
+	clear: both;
+	display: block;
 
+}
 .pic1 {
 	width: 352px;
 	height: 212px;
